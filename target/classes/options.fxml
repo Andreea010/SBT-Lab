@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="837.0" prefWidth="909.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.keys.PolicyOptions">
+   <children>
+      <TableView fx:id="table" layoutX="9.0" layoutY="68.0" prefHeight="700.0" prefWidth="890.0">
+        <columns>
+          <TableColumn fx:id="reference" minWidth="30.0" prefWidth="75.0" text="reference" />
+            <TableColumn fx:id="value_type" minWidth="30.0" prefWidth="75.0" text="value_type" />
+            <TableColumn fx:id="solution" minWidth="30.0" prefWidth="75.0" text="solution" />
+            <TableColumn fx:id="reg_item" minWidth="30.0" prefWidth="75.0" text="reg_item" />
+            <TableColumn fx:id="reg_option" minWidth="30.0" prefWidth="75.0" text="reg_option" />
+            <TableColumn fx:id="description" minWidth="30.0" prefWidth="106.006591796875" text="description" />
+            <TableColumn fx:id="value_data" minWidth="30.0" prefWidth="43.993438720703125" text="value_data" />
+            <TableColumn fx:id="reg_key" minWidth="30.0" prefWidth="75.0" text="reg_key" />
+            <TableColumn fx:id="type" minWidth="30.0" prefWidth="75.0" text="type" />
+            <TableColumn fx:id="see_also" minWidth="30.0" prefWidth="75.0" text="see_also" />
+            <TableColumn fx:id="info" minWidth="30.0" prefWidth="75.0" text="info" />
+            <TableColumn fx:id="select" minWidth="30.0" prefWidth="75.0" text="select" />
+        </columns>
+      </TableView>
+      <TextField fx:id="textField" layoutX="116.0" layoutY="30.0" prefHeight="26.0" prefWidth="505.0" />
+      <Label layoutX="43.0" layoutY="33.0" prefHeight="17.0" prefWidth="96.0" text="Search Bar" />
+      <CheckBox fx:id="SelectAll" layoutX="817.0" layoutY="30.0" mnemonicParsing="false" text="SelectAll" />
+      <Button fx:id="saveButton" layoutX="397.0" layoutY="782.0" mnemonicParsing="false" onAction="#saveOptions" prefHeight="42.0" prefWidth="101.0" text="Save" />
+   </children>
+</AnchorPane>
