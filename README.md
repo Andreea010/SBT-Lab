@@ -11,7 +11,7 @@
 * Parse and understand the format of data within the imported policy;
 * Save the same set of policies under a different name within a structured form (ex: database).
 
-_Video Link:_ 
+_Video Link:_ https://drive.google.com/file/d/1_u1R876shgsVIRubUNcdWwtmAuCIA9v4/view?usp=sharing
 
 ## Laboratory 2
 ### Objectives:
@@ -23,4 +23,4 @@ _Video Link:_
 a different one.
 
 
-_Video Link:_ 
+_Video Link:_ https://drive.google.com/file/d/16SVUzijhfjbICMEC0R4Q5ITi1cfV1cGa/view?usp=sharing
