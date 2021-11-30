@@ -13,6 +13,7 @@
 
 _Video Link:_ https://drive.google.com/file/d/1bNGXqUcJW5t03_x87aLZ0kb8YHNyBj0M/view?usp=sharing
 
+
 ## Laboratory 2
 ### Objectives:
 
@@ -24,13 +25,15 @@ a different one.
 
 _Video Link:_ https://drive.google.com/file/d/1DxQWbT1ad_dRIgT6ZCmA-xUQylqQkc6L/view?usp=sharing
 
+
 ## Laboratory 3
 ### Objectives:
 
 * Perform an audit of the workstation, using the options that were selected;
 * Output the results of the audit on screen.
 
-_Video Link:_
+_Video Link:_ https://drive.google.com/file/d/1VMHjl5a78cibj3NseiewszYYt7QwVANk/view?usp=sharing
+
 
 ## Laboratory 4
 ### Objectives:
@@ -39,8 +42,8 @@ _Video Link:_
 * Enforce the policy on at least 5 settings (edit the selected settings in your system);
 * Rollback to the system’s initial settings.
 
+_Video Link:_ https://drive.google.com/file/d/1OMxF0rb9JFY4NYt50mylrZvI8N4wtYHw/view?usp=sharing
 
-_Video Link:_
 
 ## Laboratory 5
 ### Objectives:
@@ -49,4 +52,4 @@ _Video Link:_
 * Enforce the policy on at least 20 settings (edit the selected settings in your system);
 * Rollback to the system’s initial settings.
 
-_Video Link:_
+_Video Link:_ https://drive.google.com/file/d/1OMxF0rb9JFY4NYt50mylrZvI8N4wtYHw/view?usp=sharing
