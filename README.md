@@ -78,3 +78,13 @@ common data and the decrypted sensitive data);
 secure).
 
 _Video Link:_ https://drive.google.com/file/d/1aSNxDXB9wkmKPJ18VNxYCkvYHa-s_gw6/view?usp=sharing
+
+
+## Laboratory 8
+### Objectives:
+
+* Create an application that could register a new user;
+* Perform email confirmation (via a one time password / code or via a link);
+* Output on the screen whether a user confirmed their email or did not confirm it yet.
+
+_Video Link:_ https://drive.google.com/file/d/18C329wKQVECNXsKYqB2C-KDhxgwcNf8o/view?usp=sharing
