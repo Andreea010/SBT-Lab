@@ -55,6 +55,18 @@ _Video Link:_ https://drive.google.com/file/d/1OMxF0rb9JFY4NYt50mylrZvI8N4wtYHw/
 _Video Link:_ https://drive.google.com/file/d/1OMxF0rb9JFY4NYt50mylrZvI8N4wtYHw/view?usp=sharing
 
 
+## Laboratory 6
+### Objectives:
+
+* Offer user authentication via SSO using at least 3 identity providers (e.g. Facebook,
+Gmail, Twitter etc.);
+* Configure SSO integration to get as much as possible data about the end-user;
+* Output all data which was provided by the identity providers (e.g. user’s name, age,
+gender, email etc.).
+
+_Video Link:_ https://drive.google.com/file/d/15ux4BeW_ATX1xsC4QmnlFpR3c4tS3zeN/view?usp=sharing
+
+
 ## Laboratory 7
 ### Objectives:
 
