@@ -53,3 +53,16 @@ _Video Link:_ https://drive.google.com/file/d/1OMxF0rb9JFY4NYt50mylrZvI8N4wtYHw/
 * Rollback to the system’s initial settings.
 
 _Video Link:_ https://drive.google.com/file/d/1OMxF0rb9JFY4NYt50mylrZvI8N4wtYHw/view?usp=sharing
+
+
+## Laboratory 7
+### Objectives:
+
+* Create a MongoDB database which would contain some secured sensitive data (protected
+via 2-way encryption);
+* Create an application which would display the data contained in the database (both
+common data and the decrypted sensitive data);
+* Make sure that the sensitive data can only be accessed via your application (i.e. it is
+secure).
+
+_Video Link:_ https://drive.google.com/file/d/1aSNxDXB9wkmKPJ18VNxYCkvYHa-s_gw6/view?usp=sharing
