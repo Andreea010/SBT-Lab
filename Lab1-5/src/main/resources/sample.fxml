@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" prefHeight="390.0" prefWidth="675.0" vgap="10" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="data.Controller">
+   <columnConstraints>
+      <ColumnConstraints maxWidth="0.0" minWidth="0.0" prefWidth="0.0" />
+      <ColumnConstraints maxWidth="0.0" minWidth="0.0" prefWidth="0.0" />
+      <ColumnConstraints maxWidth="750.0" minWidth="750.0" prefWidth="700.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints maxHeight="280.0" minHeight="267.0" prefHeight="280.0" />
+      <RowConstraints maxHeight="13.0" minHeight="0.0" prefHeight="0.0" />
+   </rowConstraints>
+   <children>
+      <AnchorPane fx:id="AnchorPane" prefHeight="280.0" prefWidth="674.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+         <children>
+            <Button layoutY="224.0" mnemonicParsing="false" onMouseClicked="#importFile" prefHeight="35.0" prefWidth="73.0" text="Import" />
+            <TextArea fx:id="textArea" layoutY="30.0" prefHeight="41.0" prefWidth="617.0" />
+            <Button layoutX="100.0" layoutY="224.0" mnemonicParsing="false" onMouseClicked="#parseFile" prefHeight="35.0" prefWidth="73.0" text="Parse" />
+            <Button layoutX="543.0" layoutY="224.0" mnemonicParsing="false" onMouseClicked="#saveFile" prefHeight="35.0" prefWidth="73.0" text="Save" />
+            <TextArea fx:id="textAreaP" layoutY="92.0" prefHeight="41.0" prefWidth="617.0" />
+            <TextArea fx:id="textAreaS" layoutY="158.0" prefHeight="41.0" prefWidth="617.0" />
+            <Button layoutX="381.0" layoutY="224.0" mnemonicParsing="false" onMouseClicked="#openKeyWindow" prefHeight="35.0" prefWidth="119.0" text="Visualize keys" />
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>

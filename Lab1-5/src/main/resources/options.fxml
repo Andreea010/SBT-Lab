@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="837.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="keys.PolicyOptions">
+   <children>
+      <TableView fx:id="table" layoutX="9.0" layoutY="68.0" prefHeight="690.0" prefWidth="1280.0">
+        <columns>
+          <TableColumn fx:id="reference" minWidth="10.0" prefWidth="102.0" text="reference" />
+            <TableColumn fx:id="value_type" minWidth="10.0" prefWidth="102.0" text="value_type" />
+            <TableColumn fx:id="solution" minWidth="10.0" prefWidth="102.0" text="solution" />
+            <TableColumn fx:id="reg_item" minWidth="10.0" prefWidth="102.0" text="reg_item" />
+            <TableColumn fx:id="reg_option" minWidth="10.0" prefWidth="102.0" text="reg_option" />
+            <TableColumn fx:id="description" minWidth="10.0" prefWidth="102.0" text="description" />
+            <TableColumn fx:id="value_data" minWidth="10.0" prefWidth="102.0" text="value_data" />
+            <TableColumn fx:id="reg_key" minWidth="10.0" prefWidth="102.0" text="reg_key" />
+            <TableColumn fx:id="type" minWidth="10.0" prefWidth="102.0" text="type" />
+            <TableColumn fx:id="see_also" minWidth="10.0" prefWidth="102.0" text="see_also" />
+            <TableColumn fx:id="info" minWidth="10.0" prefWidth="102.0" text="info" />
+            <TableColumn fx:id="select" minWidth="10.0" prefWidth="102.0" text="select" />
+            <TableColumn fx:id="failed_policies" minWidth="30.0" prefWidth="75.0" text="failed_policies" />
+        </columns>
+      </TableView>
+      <TextField fx:id="textField" layoutX="116.0" layoutY="30.0" prefHeight="26.0" prefWidth="505.0" />
+      <Label layoutX="43.0" layoutY="33.0" prefHeight="17.0" prefWidth="96.0" text="Search Bar" />
+      <CheckBox fx:id="SelectAll" layoutX="1200.0" layoutY="30.0" mnemonicParsing="false" text="SELECT ALL" />
+      <Button fx:id="saveButton" layoutX="438.0" layoutY="782.0" mnemonicParsing="false" onAction="#saveOptions" prefHeight="42.0" prefWidth="58.0" text="SAVE" />
+       <Button fx:id="compareButton" layoutX="430.0" layoutY="781.0" mnemonicParsing="false" onAction="#compareOptions" prefHeight="42.0" prefWidth="101.0" text="COMPARE" />
+       <Button fx:id="enforce" layoutX="653.0" layoutY="781.0" mnemonicParsing="false" onAction="#enforceOptions" prefHeight="42.0" prefWidth="101.0" text="ENFORCE" />
+       <Button fx:id="back" layoutX="783.0" layoutY="781.0" mnemonicParsing="false" onAction="#back" prefHeight="42.0" prefWidth="101.0" text="ROLLBACK" />
+       <Label fx:id="LableText" layoutX="950.0" layoutY="30.0" prefHeight="17.0" prefWidth="298.0" />
+       <Label fx:id="Lable22" layoutX="950.0" layoutY="50.0" prefHeight="17.0" prefWidth="223.0" />
+       <Label fx:id="Label23" layoutX="950.0" layoutY="10.0" prefHeight="17.0" prefWidth="192.0" />
+   </children>
+</AnchorPane>
